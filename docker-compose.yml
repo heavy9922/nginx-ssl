@@ -18,7 +18,7 @@ services:
             - ./server/nginx.conf:/etc/nginx/nginx.conf
             - ./server/security-headers.conf:/etc/nginx/security-headers.conf
             - ./server/sites/server.conf:/etc/nginx/conf.d/default.conf
-            - ./data/login-static:/var/www/html/login_static
+            - ./data/login:/var/www/html/login
             - ./server/certbot/conf:/etc/letsencrypt
             - ./server/certbot/www:/var/www/certbot
         ports:
