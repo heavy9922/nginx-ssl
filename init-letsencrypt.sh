@@ -4,7 +4,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   echo 'Error: docker-compose is not installed.' >&2
   exit 1
 fi
-domains=(api.devcodes.com.co)
+domains=(api.acquatextiles.com)
 rsa_key_size=4096
 data_path="./server/certbot"
 email="yefersoncasti@gmail.com" # Adding a valid address is strongly recommended
